@@ -1,4 +1,4 @@
-sudo pacman -S firefox hyprland waybar hyprpaper thunar ttf-jetbrains-mono polkit-gnome grim slurp wl-clipboard arc-gtk-theme kitty wofi eog mpv papirus-icon-theme gvfs
+sudo pacman -S firefox hyprland waybar hyprpaper thunar ttf-jetbrains-mono polkit-gnome grim slurp wl-clipboard arc-gtk-theme kitty wofi eog mpv papirus-icon-theme gvfs xdg-desktop-portal-hyprland
 
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
