@@ -1,0 +1,12 @@
+window {
+  border-radius: 4px;
+}
+
+#input {
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+#outer-box {
+  margin: 5px;
+}

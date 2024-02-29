@@ -1,0 +1,22 @@
+window#waybar {
+  border-radius: 4px;
+}
+
+#tray,
+#clock,
+#language,
+#pulseaudio,
+#cpu,
+#memory,
+#temperature,
+#custom-theme {
+  padding: 0 5px;
+}
+
+#tray {
+  padding-left: 10px;
+}
+
+#custom-theme {
+  padding-right: 10px;
+}
