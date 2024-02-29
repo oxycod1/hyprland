@@ -3,12 +3,12 @@
   "margin-left": 10,
   "margin-right": 10,
   "height": 30,
-  "spacing": 5,
+  "spacing": 10,
   "modules-left": ["tray"],
   "modules-center": ["clock"],
   "modules-right": ["hyprland/language", "pulseaudio", "cpu", "memory", "temperature", "custom/theme"],
   "tray": {
-    "spacing": 5
+    "spacing": 10
   },
   "clock": {
     "format": "{:%H:%M}",
