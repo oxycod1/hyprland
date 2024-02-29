@@ -1,8 +1,7 @@
-#!/bin/bash
 THEME=dark
 
 if [ $THEME == "light" ]; then
-	sed -i "2s/.*/THEME=dark/" ~/.config/waybar/theme.sh
+	sed -i "1s/.*/THEME=dark/" ~/.config/waybar/theme.sh
 	sed -i -e "s/Vimix-cursors/Vimix-white-cursors/g" ~/.config/hypr/hyprland.conf
 	sed -i -e "s/dark.jpg/light.jpg/g" ~/.config/hypr/hyprpaper.conf
 	sed -i -e "s/include light.conf/include dark.conf/g" ~/.config/kitty/kitty.conf
@@ -18,7 +17,7 @@ if [ $THEME == "light" ]; then
 	killall hyprpaper
 	exec hyprpaper
 elif [ $THEME == "dark" ]; then
-	sed -i "2s/.*/THEME=light/" ~/.config/waybar/theme.sh
+	sed -i "1s/.*/THEME=light/" ~/.config/waybar/theme.sh
 	sed -i -e "s/Vimix-white-cursors/Vimix-cursors/g" ~/.config/hypr/hyprland.conf
 	sed -i -e "s/light.jpg/dark.jpg/g" ~/.config/hypr/hyprpaper.conf
 	sed -i -e "s/include dark.conf/include light.conf/g" ~/.config/kitty/kitty.conf

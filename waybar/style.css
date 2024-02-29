@@ -2,17 +2,6 @@ window#waybar {
   border-radius: 4px;
 }
 
-#tray,
-#clock,
-#language,
-#pulseaudio,
-#cpu,
-#memory,
-#temperature,
-#custom-theme {
-  
-}
-
 #tray {
   padding-left: 10px;
 }
